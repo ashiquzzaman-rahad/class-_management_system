@@ -1,0 +1,91 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+td a{
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.openbtn, .closebtn {
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.openbtn:hover,.closebtn:hover{
+    background-color: #444;
+}
+
+#main {
+    transition: margin-left 0.5s;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    background-color: antiquewhite;
+}
+
+#welcome{
+    transition: margin-left 0.5s;
+    padding: 20px;
+    gap: 10px;
+    background-color: black;
+    color: white;
+}
+
+#clock,#date,#day{
+    display: flex;    
+    justify-content: left;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
+}

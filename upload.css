@@ -1,0 +1,39 @@
+#upload {
+    background-color: none; 
+    padding: 20px;
+    border-radius: 5px; 
+    max-width: auto; 
+    margin: auto; 
+}
+
+#upload label {
+    display: block; 
+    margin-bottom: 10px; 
+    font-weight: bold; 
+}
+
+#upload input[type="text"],
+#upload input[type="url"],
+#upload select {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 20px; 
+    border: 2px solid #000000; 
+    border-radius: 10px; 
+}
+
+#upload button {
+    background-color: #2c3ee2; 
+    color: white; 
+    padding: 15px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#upload button:hover {
+    background-color: #45a049; 
+}

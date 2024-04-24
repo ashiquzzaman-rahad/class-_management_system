@@ -1,0 +1,54 @@
+#course table{
+    width: 100%; 
+    border-collapse: collapse; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); 
+    font-family: "Poppins", sans-serif;; 
+    margin: 25px 0; 
+    border: none;
+    border-radius: 20px;
+}
+
+caption{
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+#course th, #course td {
+    padding: 12px 15px; 
+    border: 1px solid #ddd; 
+    text-align: center; 
+}
+
+#course th {
+    background-color: #03218c; 
+    color: #ffffff; 
+}
+
+#course tr:nth-child(odd) {
+    background-color: #b9c7ff; 
+}
+
+#course tr:hover {
+    background-color: #e4e8ff; 
+}
+
+.marquee-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50px; /* Adjust the height as needed */
+}
+
+.marquee-text {
+    position: absolute;
+    white-space: nowrap;
+    animation: marquee 5s linear infinite;
+}
+
+@keyframes marquee {
+    0% { left: 100%; }
+    100% { left: 0; }
+}

@@ -1,0 +1,82 @@
+*{
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .loginform {
+    margin: 0 auto;
+    width: 400px;
+    padding: 10px 40px;
+    border: 3px solid #000000;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+
+  h1{
+    display: flex;
+    justify-content: center;
+    color: #000000;
+  }
+
+  .loginform label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .loginform input[type="email"],
+  .loginform input[type="text"]
+  {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    border: 3px solid #0c0c0c;
+    margin-bottom: 5px;
+  }
+
+  .loginform select {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    border: 2px solid #000000;
+    margin-bottom: 5px;
+  }
+
+
+  .loginform button {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .loginform button:hover {
+    background-color: #3b4498;
+    color: #f9eca2;
+    font-weight: bold;
+  }
+
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
